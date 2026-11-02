@@ -13,7 +13,7 @@ for a in fruits:
 import time
 count=5
 while count > 0:
-  print("Time remainning in:", count)
+  print("Countdown timer:", count)
   count -= 1
   time.sleep(1)
 #-------------------------------------------------------------------------

@@ -10,10 +10,12 @@ for a in fruits:
 # Question 2: Using a while loop for countdown
 
 # TODO: Use a while loop to create a countdown from 5 to 1
+import time
 count=5
 while count > 0:
-  print(count)
+  print("Time remainning in: ",count)
   count -= 1
+  time.sleep(1)
 #-------------------------------------------------------------------------
 # Question 3: Using a for loop with range()
 
